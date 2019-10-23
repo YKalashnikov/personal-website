@@ -1,0 +1,54 @@
+.c-contact-list {
+  list-style: none;
+  display:flex;
+  flex-direction: column;
+  margin-top:-29px;
+  padding:2em;
+}
+.c-contact-list__item  {
+  margin: 0.2em;
+  box-shadow: 0px 0px 5px rgb(224, 233, 236);
+  padding:7px;
+  width:auto;
+  background: url(../images/background/slide-bar.jpeg);
+  border-radius: 1%;
+  border:1px solid lightblue;
+   //margin: 0 0 .6em 0;
+   word-wrap: break-word;
+  &:hover {
+    svg {
+      color:#8E93EB;
+    }
+  } 
+  svg {
+    color:rgb(250, 242, 219);
+    font-size: 1.2em;
+    margin: 0 .3em 0 0;
+  }
+}
+.c-contact-list-front{
+  list-style: none;
+  display: flex; 
+  margin-top:11em;
+  margin-bottom:-5em;
+  justify-content:space-evenly;
+  
+}
+.c-contact-list__item-front{
+  margin: 0 0 .6em 0;
+  &:hover {
+    svg {
+      color: lightblue;
+    }
+  }
+}
+.leaflet-container {
+  border-radius: 5%;
+  height: 340px;
+  width: 55%;
+  margin-top: 1px;
+  float:right;
+  box-shadow: 0px 0px 5px rgb(224, 233, 236);
+  border:1px solid lightblue;
+  opacity: .8; 
+}

@@ -1,0 +1,50 @@
+
+
+.l-page-wrapper {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  //opacity:0.3;
+ // background-color:	rgba(255, 0, 0, 0.071);
+ // background-blend-mode: lighten;
+   background-image:url(../images/background/world.jpeg);
+}
+
+.l-page-container {
+  display: flex;
+  flex-direction: column; 
+  justify-content: space-between;
+  margin: 0 auto;
+  min-height: 100vh;  
+  padding: 0 1.2rem;
+  transition: filter .5s, opacity .5s;
+  width: 100%;
+}
+
+.l-main {
+  margin: 0 auto;
+  max-width: $page-max-width;
+  width: 100%;
+}
+
+
+@media screen and (min-width: $media-width-S) {
+  .l-page-container {
+    padding: .5rem 5rem;
+  }
+}
+
+@media screen and (min-width: $media-width-M) {
+  .l-page-container {
+    padding: 1rem 3rem;
+  }
+}  
+
+
+/* @media screen and (min-width: $media-width-L) {
+
+}  
+
+@media screen and (min-width: $media-width-XL) {
+
+}  */

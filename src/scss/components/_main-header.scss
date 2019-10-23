@@ -1,0 +1,33 @@
+.c-main-header {
+  justify-content: space-between;
+  margin: 0.9rem auto 0;
+  max-width: $page-max-width;
+  margin-bottom:-4em;
+}
+
+.c-main-header__logo {
+  border: none;
+  float: left;
+  margin-right:0em;;
+  transition: all .3s;
+
+  &:hover {
+    border: none;
+    transform: scale(1.1);
+  }
+} 
+
+.c-main-header__nav {
+  float: right;
+  position: relative;
+ // background-color:rgba(136, 255, 0, 0.356);
+}
+
+
+@media screen and (min-width: $media-width-S) {
+
+}
+
+@media screen and (min-width: $media-width-XL) {
+
+}

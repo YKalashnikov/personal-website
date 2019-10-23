@@ -1,0 +1,36 @@
+.c-avatar {  
+  border-radius: 50% 50% 50%;
+  overflow: hidden; 
+  margin-top:0em; 
+  //transform: rotate(-1deg);
+  margin-left:-17em;
+  position:center; 
+  img {
+    height: 100%;
+    width: 105%;
+    opacity: .8;
+  }
+}
+
+.c-avatar--as-logo {
+  //border: 1px solid black;
+  //box-shadow: 0 0 0 1px rgba(0,0,0,.1);
+  height: 186px;
+  width: 186px;
+  //transform: scale(1.5) 
+ // image-rendering: auto;
+}
+/* .c-avatar--as-logo:hover {
+  //height: 96px;
+ // width: 96px;
+  transition-duration: 2s;
+  transition-delay: 0.1s;
+  transform: scale(3);
+  image-rendering: auto; 
+} */
+.c-avatar--as-author {
+  border: 2px solid darken($first-color, 20%);
+  height: 24px;
+  width: 24px;  
+}
+

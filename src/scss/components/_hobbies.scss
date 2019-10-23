@@ -1,0 +1,70 @@
+
+.instagram {
+  outline:none;
+   font-family: Exo, sans-serif;
+   text-decoration: none; 
+cursor: pointer;
+}
+.c-hobbies-list{
+/* flex-direction: column;
+align-content:space-around; */
+//flex-flow: row wrap;
+
+}
+.label {
+  position: relative;
+  border-radius: 0;
+  overflow: hidden; 
+  color:white;
+  font-weight: 900;
+  font-size: 15px;
+  margin:-8em;
+  bottom:-7em;
+  //padding-top:12em;
+  text-shadow: 0px 0px 15px  black;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}  
+
+
+.c-hobbies-list__item {
+
+/*   align-content:space-around;
+  display: flex;
+  flex-direction: column;
+  justify-content:center; */
+  outline:none;
+  //border-radius: 0;
+list-style: none;
+text-decoration: none;
+float: left;
+box-sizing: border-box;
+text-decoration: none;
+padding:10px;
+
+}
+.c-hobbies-list__btn {
+    outline:none;
+    text-decoration: none;
+    border: none;
+    box-shadow: 0px 0px 8px white;
+    border-radius: 1.2em;
+    cursor: pointer;
+    font-family: Exo, sans-serif;
+    //width:50%;
+ /*    margin: .1em .1em .6em 8px;
+    padding: 3.35em .8em 5.3em; */
+    //position: relative;
+    //transition: all .9s;
+    padding: 6.6rem;
+    &:hover {
+        transform:scale(1.1);
+        text-decoration: none;
+        //box-shadow: 0px 0px 18px lightgrey;
+        transition: all .5s;
+        //color:rgb(0, 0, 0);
+  
+      }
+    }
+   
+   

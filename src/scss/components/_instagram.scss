@@ -1,0 +1,34 @@
+.adventure {
+ /*    padding:1em;
+    padding-left: 6em;   */
+    color:white;
+}
+.pic {
+    width:330px;
+    height:300px;
+    //display:fixed;
+    box-shadow: 0px 1px 10px 1px white;
+    border-radius: 5%;
+}
+.caption {
+        width:auto;
+        margin: 10px auto;
+        padding-left:6em;
+        font-family: Exo, sans-serif;
+        color:white;
+}
+.backArrow {
+    color:white;
+    font-size: 2em;
+/*     padding:3em;
+    margin-left:-9em; */
+    cursor: pointer;
+}
+.nextArrow {
+    color:white;
+    font-size: 2em;
+    //margin:1em;
+    //margin-right:1em; 
+    cursor: pointer; 
+}
+

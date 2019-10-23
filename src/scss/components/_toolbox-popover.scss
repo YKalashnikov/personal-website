@@ -1,0 +1,83 @@
+.c-toolbox-popover {
+  border-radius:1em;
+  background:url(../images/background/slide-bar.jpeg);
+  color: white; 
+  font-family: Exo, sans-serif; 
+  margin: 29px 0;
+  //margin-left:5em;
+  max-width: 25em;
+  padding: .8em 1em .9em;
+  position: absolute;
+  transition: all .3s;
+  //text-align:justify;  
+  text-justify:auto;
+  box-shadow: 0px 0px 1px white;
+}
+
+.c-toolbox-popover__text {
+  border-radius:5em;
+  line-height: 1.4em;
+
+  a {
+    text-decoration: underline;
+    border: none;
+    color: $white-color;
+    display: inline-block;
+    font-weight: bold;
+    margin-top: -.05em;
+    padding: .05em .3em;
+
+    &:hover {
+      background: darken($first-color, 20%);
+      text-shadow: 0px 0px 1px white;
+    }
+  }
+
+
+}
+
+.c-toolbox-popover__description {
+  margin: 1em;
+}
+
+.c-toolbox-popover__footer {
+  margin-top: 1em;
+  line-height: 1.3em;
+  position: relative;
+}
+
+.c-toolbox-popover__avatar {
+  position: absolute;
+  top: -1px;
+  left: 0;
+}
+
+.c-toolbox-popover__comment {
+  display: inline-block;
+  font-family: Exo, sans-serif;
+  font-weight: 300;
+  margin-left: 32px;
+  b {
+    font-weight: 800;
+  }
+}
+
+.c-toolbox-popover__close {
+  background: none;
+  border: none;
+  color: #EBFBFF;
+  cursor: pointer;
+  float: right;
+  padding: .5em;
+  margin: -.5em -.7em .2em .2em;
+
+  &:hover {
+    color: rgb(192, 234, 245);
+    background:rgba(128, 128, 128, 0.041);
+  }
+
+  svg {
+    font-size: 1.5em;
+    padding: 0px;
+  }
+}
