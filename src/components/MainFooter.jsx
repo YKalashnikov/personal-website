@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "gatsby-link";
-import { FaEnvelopeO, FaTwitter, FaGithub, FaInstagram, FaPhone } from "react-icons/lib/fa/";
-import HeadlineWithFocus from "../components/HeadlineWithFocus";
+//import { FaEnvelopeO, FaTwitter, FaGithub, FaInstagram, FaPhone } from "react-icons/lib/fa/";
+//import HeadlineWithFocus from "../components/HeadlineWithFocus";
 
 
 

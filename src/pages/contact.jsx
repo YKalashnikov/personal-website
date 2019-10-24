@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import HeadlineWithFocus from "../components/HeadlineWithFocus";
-import Obfuscate from "react-obfuscate";
 import { FaEnvelopeO, FaCodepen, FaGithub, FaFacebook, FaInstagram, FaVk, FaHome, FaWechat } from "react-icons/lib/fa/";
 import Helmet from "react-helmet";
 import Maps from '../components/Maps';
@@ -19,70 +18,70 @@ export default props => (
      
       <ul className="c-contact-list">
         <li className="c-contact-list__item">
-          <FaEnvelopeO />
-          <Obfuscate email="uk2709@gmail.com" />
+          <a
+            href="mailto:uk2709@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+           {/*  Email */}          <FaEnvelopeO />
+          </a>
         </li>
         <li className="c-contact-list__item">
-          <FaCodepen />
+         
           <a
             href="https://codepen.io/AK-47/"
             target="_blank"
             rel="noopener noreferrer"
-          >
-            Codepen
+          > <FaCodepen />
+            {/* Codepen */}
           </a>
         </li>
         <li className="c-contact-list__item">
-          <FaGithub />
+         
           <a
             href="https://github.com/YKalashnikov"
             target="_blank"
             rel="noopener noreferrer"
           >
-            GitHub
+           <FaGithub />
+            {/* GitHub */}
           </a>
         </li>
         <li className="c-contact-list__item">
-          <FaFacebook/>
           
           <a
             href="https://www.facebook.com/iurii.kalashnikov?"
             target="_blank"
             rel="noopener noreferrer"
-          >
-            Facebook
+          > <FaFacebook/>
+            {/* Facebook */}
           </a>
         </li>
         <li className="c-contact-list__item">
-          <FaInstagram/>
-          
           <a
             href="https://www.instagram.com/yuriikalashnikov/?hl=en"
             target="_blank"
             rel="noopener noreferrer"
-          >
-            Instagram
+          >          <FaInstagram/>
+          {/*   Instagram */}
           </a>
         </li>
         <li className="c-contact-list__item">
-          <FaVk/>
           <a
             href="https://vk.com/kalashnikov27"
             target="_blank"
             rel="noopener noreferrer"
-          >
-            Vk
+          >       <FaVk/>
+         {/*    Vk */}
           </a>
         </li>
         <li className="c-contact-list__item">
-          <FaWechat/>
-
           <a
              href= "https://drive.google.com/open?id=16TQU3CDHx2TkojdxAp8uGw_9haMXjQeR"
              target="_blank"
              rel="noopener noreferrer">
-          
-             kalashnikovyurii
+                    <FaWechat/>
+         {/*     kalashnikovyurii */}
           </a>
         </li>
       </ul>
