@@ -2,7 +2,7 @@
   justify-content: space-between;
   margin: 0.9rem auto 0;
   max-width: $page-max-width;
-  margin-bottom:-4em;
+
 }
 
 .c-main-header__logo {
@@ -31,3 +31,4 @@
 @media screen and (min-width: $media-width-XL) {
 
 }
+@media only screen and (min-width: 360px) and (max-width: 767px) { /* Your Styles... */ }

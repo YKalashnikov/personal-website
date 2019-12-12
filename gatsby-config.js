@@ -20,7 +20,12 @@ module.exports = {
       options: {
         trackingId: "UA-127863740-1"
       }
+    },
+    {
+      resolve: 'gatsby-plugin-load-script',
+      options: {
+        src: 'https://code.jivosite.com/widget/BbdMnwmJKx'
+      }
     }
- 
   ]
 }

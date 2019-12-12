@@ -44,7 +44,7 @@ const ForContactPageContent = (
     <p>
       Thank you and be <b>strong</b>,<br /><br />
 
-      <b>Iurii Kalashnikov &reg; 2018</b>
+      <b>Iurii Kalashnikov &reg; 2020</b>
     </p>
   
   </div>

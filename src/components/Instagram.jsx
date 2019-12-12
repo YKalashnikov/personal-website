@@ -38,7 +38,7 @@ class Instagram extends Component {
         this.previousImage = this.previousImage.bind(this);
       }
     
-      componentWillMount() {
+      componentDidMount() {
         this.fetchPhotos();
       
       }

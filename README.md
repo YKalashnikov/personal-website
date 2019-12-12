@@ -1,7 +1,7 @@
-# Personal-website
+# Personal-Website
 Personal website with Gatsby, React, Redux
 
-➜ [Demo](https://lifeisgood.ml)
+➜ [Demo](https://lifeisgood.cf)
 
 ### Using
 - React
