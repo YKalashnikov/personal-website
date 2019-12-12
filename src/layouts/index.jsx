@@ -4,6 +4,7 @@ import { connect } from "react-redux";
 import Helmet from 'react-helmet';
 
 import '../scss/main.scss';
+import iconEarth from '../../iconEarth.png'
 require("typeface-exo");
 require("typeface-roboto");
 
@@ -21,8 +22,11 @@ class DefaultLayout extends React.Component {
            title="Iurii Kalashnikov"
           meta={[{ 
             name: 'description', 
-            content: `I build web interfaces using: JavaScrip, ES2015, Babel, HTML5, CSS, CSS3, React, Gatsby` 
+            content: `I build web interfaces using: JavaScrip, ES2015, Babel, HTML5, CSS, CSS3, React, Gatsby`   
           }]}
+          link={[
+            { rel: "icon", type: "image/png", sizes: "16x16", href: `${iconEarth}` },
+          ]}
         />    
           
         <div  className={`l-page-container ${this.props.remarkScreenisActive && 'is-blurred'}`}>
