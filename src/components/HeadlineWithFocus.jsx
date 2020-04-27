@@ -1,33 +1,27 @@
 import React from 'react';
 
-class HeadlineWithFocus extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      animationClassName: ''
-    }
-  }
+function HeadlineWithFocus(props) {
+  const [animation, setAnimation] = React.useState({animationClassName: ''})
+  const inputRef = React.useRef("myImgContainer");
 
-  componentDidMount() {
+  React.useEffect(()=>{
     setTimeout(() => {
-      this.setState((prevState) => ({
+      setAnimation({
         animationClassName: 'c-headline-focus--animation'
-      }));
-    },5);  
-  }
+      });
+    },5);    
+  },[])
 
-  render() { 
     return (
         <h1 
-          className={ `c-headline-focus
-            ${this.props.modifierClassNames} 
-            ${this.state.animationClassName}` } 
-          ref="myImgContainer"
+          className={`c-headline-focus
+            ${props.modifierClassNames} 
+            ${animation.animationClassName}` } 
+          ref={inputRef}
         >            
-          { this.props.children }
+          {props.children }
         </h1>
     )
-  }
 }
 
 export default HeadlineWithFocus; 

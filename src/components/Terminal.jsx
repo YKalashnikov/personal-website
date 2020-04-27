@@ -234,8 +234,8 @@ const generateLinkedIn = () => {
     ];
 };
 const resume = () => {
-    window.open('https://1drv.ms/w/s!An56sgU4FkkciSctNXhlV5_g5u2y')
-    return ['https://1drv.ms/w/s!An56sgU4FkkciSctNXhlV5_g5u2y']
+    window.open('https://drive.google.com/file/d/1ZmZP3uVh1_QQ70VyXrQ9FjAZZ-KJmlmH/view')
+    return ['https://drive.google.com/file/d/1ZmZP3uVh1_QQ70VyXrQ9FjAZZ-KJmlmH/view']
 }
 
 const generateOops = () => {

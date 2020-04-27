@@ -3,6 +3,7 @@ import Link from 'gatsby-link';
 import PropTypes from 'prop-types';
 import {TiInfoLargeOutline} from "react-icons/lib/ti/";
 import { FaArrowRight, FaClose, FaInfo } from 'react-icons/lib/fa/';
+
 const ActionButton = ({ 
   topPx, 
   rightPx, 

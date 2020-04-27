@@ -3,7 +3,7 @@ import React, { Component } from "react";
 //import 'leaflet/dist/leaflet.css'
 
 
-      const center = [32.713024, -117.166873]
+      const center = [33.8854436, -118.4110188]
       const rectangle = [[32.711332, -117.216577], [32.709620, -117.192976],[32.692375, -117.219004], [32.688305, -117.200345]]
 
 
@@ -28,12 +28,11 @@ import React, { Component } from "react";
             <Circle center={center} fillColor="red" radius={200} stroke={false} />  
             <Tooltip direction="right" offset={[15, 5]}>Knock on my door</Tooltip>
           </Circle>
-          <Rectangle bounds={rectangle} color="black">
+           <Rectangle bounds={rectangle} color="black">
             <Tooltip direction="right" offset={[40, 2]} opacity={1} >
              Don't knock here
             </Tooltip>
-          </Rectangle>
-         
+          </Rectangle> 
         </Map>
       )
     }

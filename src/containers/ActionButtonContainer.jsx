@@ -16,7 +16,7 @@ class ActionButtonContainer extends React.Component {
     };
   }
 
-	componentDidMount() {  
+  componentDidMount() {  
     this.getButtonAnchor();
 
     if(typeof window !== 'undefined') {

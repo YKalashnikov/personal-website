@@ -3,41 +3,36 @@ import { connect } from 'react-redux';
 import { toggleRemarkScreen } from '../state/actions'; 
 import RemarkScreen from '../components/RemarkScreen';
 
-class RemarkScreenContainer extends React.Component {
-  constructor(props) {  
-    super(props);
-  }
+function RemarkScreenContainer(props) {
+  React.useEffect(()=>{
+    initializeEscClosing()
+  },[])
 
-  componentDidMount() {
-    this.initializeEscClosing();
-  }
-
-  initializeEscClosing() {
+  const initializeEscClosing=()=> {
     if (typeof window !== 'undefined') {
       window.addEventListener('keydown', (e) => {
-        if (this.props.isActive && e.which == 27) {
-          this.props.toggleScreen();
+        if (props.isActive && e.which == 27) {
+          props.toggleScreen();
         } 
       });
     } 
   }
   
-  render() {
+
     return (
       <div>
         <RemarkScreen
-          isActive={this.props.isActive}
-          locationPathName={this.props.locationPathName}
-          onClick={this.props.toggleScreen}
+          isActive={props.isActive}
+          locationPathName={props.locationPathName}
+          onClick={props.toggleScreen}
         />
-        {this.props.isActive && <div 
-            onClick={this.props.toggleScreen}
+        {props.isActive && <div 
+            onClick={props.toggleScreen}
             className="c-remark-screen-overlay"
           >
           </div>}
       </div>
     )
-  }
 }
 
 const mapStateToProps = (state, ownProps) => {

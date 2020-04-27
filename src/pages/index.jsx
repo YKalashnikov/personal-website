@@ -7,7 +7,6 @@ import HeadlineWithFocus from "../components/HeadlineWithFocus";
 
 const Index = props => {
   return (
-    
     <div className="c-content-box" >
       <h2>Hi, it's Iurii Kalashnikov</h2>
       <HeadlineWithFocus

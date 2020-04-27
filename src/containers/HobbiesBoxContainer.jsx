@@ -170,4 +170,3 @@ class HobbiesBoxListContainer extends React.Component {
 }
 
 export default HobbiesBoxListContainer;
-
